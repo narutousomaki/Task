@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors( ));
 
 mongoose.connect(
   'mongodb+srv://nijithvlk9400:NJT5162@cluster0.fi0qono.mongodb.net/tasktracker?appName=Cluster0'
